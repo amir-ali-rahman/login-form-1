@@ -1,0 +1,167 @@
+/**
+Author: Amir Ali Rahman
+Website: www.codinghub360.com
+GitHub: https://github.com/amir-ali-rahman
+Instagram: https://www.instagram.com/amir_ali_rahman/
+**/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+    color: #666
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    display: block;
+    width: 400px;
+    height: auto;
+    border: 2px solid #d2d2d2;
+    border-radius: 20px;
+    padding: 20px 50px 40px 50px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+
+}
+
+.login-form h1 {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    color: red;
+}
+
+.login-form label {
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+    text-align: left;
+    color: #28282b;
+}
+
+.login-form input {
+    display: block;
+    padding: 5px 20px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid green;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    color: #808080;
+    outline: none;
+}
+
+.login-form input:hover {
+    border: 1px solid #F44336;
+}
+
+.login-form input:focus {
+    border: 1px solid #F44336;
+}
+
+.login-form .success input {
+    border-color: #2ecc71;
+}
+
+.login-form .error input {
+    border-color: #e74c3c;
+}
+
+.login-form span {
+    visibility: hidden;
+}
+
+.login-form .error span {
+    visibility: visible;
+    color: #e74c3c;
+    font-size: 13px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0 20px 0;
+    height: 50px;
+    background-color: #EF5350;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.login-form button:hover {
+    background: #F44336;
+}
+
+.login-form .hr {
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.login-form .links {
+    display: table;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.login-form .links a {
+    display: table-cell;
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+.login-form .links a:first-child {
+    float: left;
+}
+
+.login-form .links a:last-child {
+    float: right;
+}
+
+.login-form .links a:hover {
+    color: #000;
+}
+
+.login-form p {
+    text-align: center;
+}
+
+.copyright {
+    margin: 10px 0 10px 0;
+    font-size: 12px;
+    color: #a0a0a0;
+    text-align: center;
+}
+
+.copyright a {
+    margin: 30px 0 0 0;
+    font-size: 12px;
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    font-weight: bold;
+}
