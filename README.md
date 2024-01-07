@@ -1,4 +1,6 @@
-Feel free to Connect with me for any query
+<img src="login-form-preview.png" />
+
+<p align="center">Feel free to Connect with me for any query</p>
 
 Author: Amir Ali Rahman<br/>
 Website: www.codinghub360.com<br/>
